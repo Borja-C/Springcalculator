@@ -1,0 +1,4 @@
+com\calculatorspring\calculatorspring\models\Operation.class
+com\calculatorspring\calculatorspring\services\OperationService.class
+com\calculatorspring\calculatorspring\controllers\OperationController.class
+com\calculatorspring\calculatorspring\CalculatorspringApplication.class

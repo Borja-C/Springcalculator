@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
+<html>
+<form:form action="calc" method="post" modelAttribute="operate">
+        <input type="number" name="operand1"/>
+        <select name="symbol">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+        </select>
+        <input type="number" name="operand2"/>
+        <input type="submit" value="calculate"/>
+        <div>
+        ${result}
+        </div>
+</form:form>
+</html>
